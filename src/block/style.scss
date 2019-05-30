@@ -83,10 +83,14 @@ $break-lg: 992px;
       //.publication-share:hover + .container-publication-share{
       //  display: flex;
       //}
-      //
-      //.container-publication-share:hover{
-      //  display: flex;
-      //}
+
+      .container-publication-share.toggled-on{
+        display: flex;
+      }
+
+      .container-publication-share:hover{
+        display: flex;
+      }
     }
   }
 }
