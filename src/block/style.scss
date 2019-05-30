@@ -11,7 +11,7 @@ $break-lg: 992px;
   .publication-inner{
     border-top: 5px solid #808080;
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.12);
-    padding: 35px;
+    padding: 35px 35px 50px 35px;
   }
   .publication-category{
     color: #808080;
@@ -52,6 +52,7 @@ $break-lg: 992px;
     .col-button{
       width: 50%;
       padding: 0 20px;
+      position: relative;
 
       .button{
         width: 100%;
@@ -74,15 +75,18 @@ $break-lg: 992px;
       .container-publication-share{
         display: none;
         padding-top: 10px;
+        position: absolute;
+        bottom: -43px;
+        left: 20px;
       }
 
-      .publication-share:hover + .container-publication-share{
-        display: flex;
-      }
-
-      .container-publication-share:hover{
-        display: flex;
-      }
+      //.publication-share:hover + .container-publication-share{
+      //  display: flex;
+      //}
+      //
+      //.container-publication-share:hover{
+      //  display: flex;
+      //}
     }
   }
 }
